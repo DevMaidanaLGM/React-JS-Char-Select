@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/views/navBar';
+import Home from './components/views/home';
+import About from './components/views/about';
+import CharacterDetail from './components/character/CharacterDetail';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    /* Se llama los tags importados desfe la carpeta de componentes y
+    se los pone dentro de un tag de estilos para aplicarle un solo archivo
+    de estilo a todos*/
+
+    <div>
+    <styles>
+      <NavBar/>
+      <Home/>
+      <CharacterDetail/>
+      <About/>
+      </styles>
     </div>
   );
 }
