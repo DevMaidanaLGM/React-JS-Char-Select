@@ -60,12 +60,12 @@ showFriends = () =>{ //Metodo que modifica el arreglo amigos original por uno ar
           }
         </select>
 
-        <div id="detailSection"> //Seccion para mostrar los detalles de charSelect
+        <div id="detailSection">
           <h3 id = "detailTitle">
             {this.state.charSelect.name +
               " " +
               this.state.charSelect.lastname}
-              //Se muestra el nombre junto con el apellido del charSelect
+
           </h3>
           <div>
             <img id="wallpaperImg" src={this.state.charSelect.wallpaper}></img>
@@ -75,7 +75,6 @@ showFriends = () =>{ //Metodo que modifica el arreglo amigos original por uno ar
           <p> Quote: "{this.state.charSelect.bestPhrase}"</p>
           <p> Friends: {this.showFriends()} {this.state.charSelect.friends }</p>
           <p> City: {this.state.charSelect.city}</p>
-            //Se muestran los atributos del charSelect
         </div>
       </div>
     );
