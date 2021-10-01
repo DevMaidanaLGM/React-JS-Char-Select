@@ -1,36 +1,40 @@
 {
     "Characters": [
         {
+            "id" : "0",
             "name": "Kayo",
             "lastname": "Hinazuki",
             "age": "10",
             "photo": "https://i.pinimg.com/originals/1f/c9/c9/1fc9c9b160a3c3ba86ded9cc926c41cb.jpg",
             "wallpaper": "https://images5.alphacoders.com/683/thumb-1920-683930.png",
             "bestPhrase": "Are you stupid? - Jp: Baka nano?",
-            "friends": ["Satoru Fujinuma","Kenya Kobayashi"],
-            "city": "Somwhere in Japan"
+            "friends": ["Satoru Fujinuma, ","Kenya Kobayashi"],
+            "city": "Somewhere in Japan"
         },
         {
+            "id" : "1",
             "name": "Satoru",
             "lastname": "Fujinuma",
             "age": "26",
             "photo": "https://static.wikia.nocookie.net/bokudakegainaimachi/images/e/e7/Satoru_Fujinuma.png",
             "wallpaper": "https://images4.alphacoders.com/687/thumb-1920-687034.jpg",
             "bestPhrase": "My fate is my own. There's no need for you to feel responsible. I'm sure that what's become of me was a result of something I wanted.",
-            "friends": ["Kayo Hinazuki", "Kenya Kobayashi", "Airi Katagiri"],
-            "city": "Somwhere in Japan"
+            "friends": ["Kayo Hinazuki, ", "Kenya Kobayashi, ", "Airi Katagiri"],
+            "city": "Somewhere in Japan"
         },
         {
+          "id" : "2",
           "name": "Airi",
           "lastname": "Katagiri",
           "age": "17",
           "photo": "https://static.wikia.nocookie.net/bokudakegainaimachi/images/4/4e/Airi_Katagiri.png",
           "wallpaper": "https://www.less-real.com/imagevault/uploaded/images/part6/Airi-Katagiri-29106.jpg",
           "bestPhrase": "The thing about words... Say them out loud, and I think they start to come true.",
-          "friends": ["Satoru Fujinuma","Sachiko Fujinuma"],
-          "city": "Somwhere in Japan"
+          "friends": ["Satoru Fujinuma, ","Sachiko Fujinuma"],
+          "city": "Somewhere in Japan"
         },
         {
+          "id" : "3",
           "name": "Gaku",
           "lastname": "Yashiro",
           "age": "28",
@@ -38,18 +42,77 @@
           "wallpaper": "https://i.pinimg.com/originals/58/9c/b4/589cb4d80625cf8ef11ee6d22be90db1.png",
           "bestPhrase": "Thanks Satoru, but... there's no candy in there. After all... this isn't my car.",
           "friends": [],
-          "city": "Somwhere in Japan"
+          "city": "Somewhere in Japan"
         },
         {
+            "id" : "4",
             "name": "Kenya",
             "lastname": "Kobayashi",
             "age": "10",
             "photo": "https://i.pinimg.com/originals/a6/42/c8/a642c83b3af76809e7643784c3f99922.png",
-            "wallpaper": "https://images2.alphacoders.com/113/thumb-1920-1135004.png",
+            "wallpaper": "https://i.ytimg.com/vi/4zXTxG7R3t0/maxresdefault.jpg",
             "bestPhrase": "Living in a big house doesn't guarantee hapiness.",
-            "friends": ["Satoru Fujinuma","Hinazuki Kayo"],
-            "city": "Somwhere in Japan"
+            "friends": ["Satoru Fujinuma, ","Kayo Hinazuki"],
+            "city": "Somewhere in Japan"
+        },
+        {
+            "id" : "5",
+            "name": "Sachiko",
+            "lastname": "Fujinuma",
+            "age": "52",
+            "photo": "https://i.pinimg.com/originals/60/28/ee/6028ee1d144f860b1aa6dd793b4ca38d.jpg",
+            "wallpaper": "https://i.pinimg.com/originals/f8/ac/fe/f8acfe8510de84d47471e2d2ce6f33b6.jpg",
+            "bestPhrase": "Thinking it's your fault after the fact is just pointless. There's only so much a person can do. That holds true for me and you",
+            "friends": ["Airi Katagiri, ","Kayo Hinazuki"],
+            "city": "Somewhere in Japan"
+        },
+        {
+            "id" : "6",
+            "name": "Shiratori",
+            "lastname": "Jun",
+            "age": "Between 20 and 30",
+            "photo": "https://static.wikia.nocookie.net/bokudakegainaimachi/images/4/45/Jun_Shiratori.png",
+            "wallpaper": "https://i.pinimg.com/originals/a4/82/fb/a482fbdba36576b727c3904b86f74180.jpg",
+            "bestPhrase": "Don't be ashamed and build you up with courage!",
+            "friends": ["Satoru Fujinuma"],
+            "city": "Somewhere in Japan"
+        },
+        {
+          "id" : "7",
+          "name": "Aya",
+          "lastname": "Nakanishi",
+          "age": "11",
+          "photo": "https://static.wikia.nocookie.net/bokudakegainaimachi/images/b/bc/Aya2.png",
+          "wallpaper": "https://cloudedanime.files.wordpress.com/2016/03/boku-dake-ga-inai-machi-10-03.jpg",
+          "bestPhrase": "So childish...",
+          "friends": ["Satoru Fujinuma, ","Kenya Kobayashi, ", "Kazu"],
+          "city": "Somewhere in Japan"
+        },
+
+        {
+          "id" : "8",
+          "name": "Kazu",
+          "lastname": "",
+          "age": "10",
+          "photo": "https://static.wikia.nocookie.net/bokudakegainaimachi/images/c/c2/Kazu.png",
+          "wallpaper": "https://i.pinimg.com/originals/00/3d/f1/003df1c19de005861c35438ab26724bb.jpg",
+          "bestPhrase": "Having a den is every man's dream!",
+          "friends": ["Satoru Fujinuma, ","Kenya Kobayashi, ", "Aya Nakanishi"],
+          "city": "Somewhere in Japan"
+        },
+
+        {
+          "id" : "9",
+          "name": "Akemi",
+          "lastname": "Hinazuki",
+          "age": "Between 30 - 40",
+          "photo": "https://static.wikia.nocookie.net/bokudakegainaimachi/images/9/97/AkemiShot.png",
+          "wallpaper": "https://i.ytimg.com/vi/t2EReQCrhY4/maxresdefault.jpg",
+          "bestPhrase": "Get in the house right now.",
+          "friends": [],
+          "city": "Somewhere in Japan"
         }
+
 
 
     ]

@@ -15,7 +15,6 @@ export default class Home extends React.Component{
 
 
 
-
   render(){
 
     return (
@@ -27,6 +26,7 @@ export default class Home extends React.Component{
            name={character.name}
            lastname={character.lastname}
            url={character.photo}
+           id={character.id}
          />
        //Llama al tag Character mandandole la info recolectada del archivo .json
        ))}

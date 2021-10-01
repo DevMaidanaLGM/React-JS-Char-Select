@@ -28,9 +28,8 @@ nav a{
   display: inline-flex;
   justify-content: space-around;
   font-size: 14px;
-  padding: 15px ;
+  padding: 10px ;
   text-decoration: none;
-  border-right: 1px solid purple;
   margin: 0px;
 
 }
@@ -39,6 +38,10 @@ nav a:hover{
   color: gray;
 }
 
+#navLink{
+  border-right: 1px solid purple;
+
+}
 
 #portrait{
   width: 250px;
@@ -52,6 +55,7 @@ nav a:hover{
 
   justify-content: center;
   display: inline-block;
+  text-align: center;
 }
 
 
@@ -92,9 +96,14 @@ border: 2px solid #3e0963;
 #detailSection p{
   font-size: 25px;
   font-family: monospace;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 #aboutCreator{
+  margin-top: 20px;
+  margin-left:20px;
   font-style: oblique;
 }
 
