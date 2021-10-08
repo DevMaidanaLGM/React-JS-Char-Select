@@ -29,15 +29,16 @@ useEffect( () => {
     * Se abre un tag de Router para manejar todas las rutas
     * Dentro del tag de Router se abre un switch donde pondremos el manejo
     de las rutas
-    
+
 
 
     */
 
       <>
+      <div className="bg">
           <Router>
             <NavBar/>
-
+<div className="container">
             <Switch>
 
               <Route exact path="/charDetail/:id">
@@ -56,7 +57,9 @@ useEffect( () => {
                    <Home />
               </Route>
             </Switch>
+  </div>
           </Router>
+          </div>
         </>
   );
 }

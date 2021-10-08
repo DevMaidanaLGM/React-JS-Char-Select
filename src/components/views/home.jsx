@@ -20,7 +20,9 @@ export default class Home extends React.Component{
     return (
 
       //Muestra los datos alojados en el archivo data.json
-      <div>
+      <div className="charContainer">
+        <h1 className="mainTitle">Boku Dake Ga Inai Machi</h1>
+        <h2 className="titleT">Character's Info</h2>
        {data.Characters.map((character) => (
          <Character
            name={character.name}

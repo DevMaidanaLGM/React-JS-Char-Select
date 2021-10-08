@@ -11,7 +11,7 @@ export default function  Character(props){
 
 
   return ( //Devuelve la imagen junto con el nombre y el apellido
-    <div id="charList">
+    <div id="charList" >
       <ul>
         <NavLink to={`/charDetail/${props.id}`}>
           <img id="portrait" src={props.url}></img>

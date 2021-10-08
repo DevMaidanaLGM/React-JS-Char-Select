@@ -51,10 +51,13 @@ export default function CharacterDetail(props){
             <img id="wallpaperImg" src={charSelect.wallpaper}></img>
           </div>
 
+          <div className="textDetail">
+
           <p> Age: {charSelect.age}</p>
           <p> Quote: "{charSelect.bestPhrase}"</p>
           <p> Friends: {charSelect.friends }</p>
           <p> City: {charSelect.city}</p>
+          </div>
         </div>
       </div>
     );
