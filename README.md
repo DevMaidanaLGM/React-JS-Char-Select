@@ -5,5 +5,6 @@ This is a project to test some of the react features. This is a project of an on
 > ### Boku Dake Ga Inai Machi - Character Select
 
 ![home](./img/home.png)
-![home2](./img/home2.png)
-![home3](./img/home3.png)
+![charDetail](./img/charDetail.png)
+![charDetail2](./img/charDetail2.png)
+![about](./img/about.png)
